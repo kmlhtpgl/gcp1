@@ -14,7 +14,6 @@ steps:
     args:
     - run
     - --filename=gke-deployment.yaml
-    - --image=gcr.io/${PROJECT_ID}/gcpdevops
     - --location=us-central1-c
     - --cluster=gcp-devops  # if your cluster name is different, use that instead
     - --namespace=gcp-devops-prod
